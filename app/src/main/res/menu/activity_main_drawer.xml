@@ -6,35 +6,23 @@
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_home"
-            android:title="Home" />
+            android:title="Home"
+            android:checkable="true"/>
     </group>
     <group android:id="@+id/group_navi"
         android:checkableBehavior="single">
         <item
             android:id="@+id/nav_category"
             android:icon="@drawable/ic_category"
-            android:title="Category" />
+            android:title="Category"
+            android:iconTint="#FFF"/>
         <item
             android:id="@+id/nav_search"
             android:icon="@drawable/ic_search"
             android:title="Search Recipes" />
-        <item
-            android:id="@+id/nav_add"
-            android:icon="@drawable/ic_addrecipe"
-            android:title="Add Recipe"
-            android:visible="false" />
     </group>
-    <group android:id="@+id/group_login"
+    <group android:id="@+id/group_info"
     android:checkableBehavior="single" >
-        <item
-            android:id="@+id/nav_login"
-            android:icon="@drawable/ic_login"
-            android:title="Login" />
-        <item
-            android:id="@+id/nav_logout"
-            android:icon="@drawable/ic_logout"
-            android:title="Logout"
-            android:visible="false" />
         <item
             android:id="@+id/nav_info"
             android:icon="@drawable/ic_info"

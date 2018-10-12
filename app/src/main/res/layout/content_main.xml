@@ -5,9 +5,9 @@
     android:id="@+id/root_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.sopan.food.recipe.activity.MainActivity"
+    tools:context="com.foodapp.food.recipe.activity.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
 </android.support.constraint.ConstraintLayout>

@@ -3,7 +3,7 @@ xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
 xmlns:app="http://schemas.android.com/apk/res-auto"
-tools:context="com.sopan.food.recipe.SearchFragment">
+tools:context="com.foodapp.food.recipe.SearchFragment">
 
 
 <TextView
@@ -11,8 +11,9 @@ tools:context="com.sopan.food.recipe.SearchFragment">
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="Please enter the ingredients that you have in your fridge and we will recommend you some awesome recipes! "
-    android:textSize="16dp"
-    android:textStyle="bold"/>
+    android:textSize="17dp"
+    android:textStyle="bold"
+    android:padding="10dp"/>
 
 <EditText
     android:id="@+id/typeIngredient"
@@ -21,7 +22,8 @@ tools:context="com.sopan.food.recipe.SearchFragment">
     android:ems="10"
     android:inputType="textPersonName"
     android:layout_below="@+id/textView3"
-    android:layout_alignParentStart="true" />
+    android:layout_alignParentStart="true"
+    android:layout_marginLeft="10dp"/>
 
 <Button
     android:id="@+id/addIngredient"
@@ -29,7 +31,8 @@ tools:context="com.sopan.food.recipe.SearchFragment">
     android:layout_height="wrap_content"
     android:layout_alignBottom="@+id/typeIngredient"
     android:layout_alignParentEnd="true"
-    android:text="add" />
+    android:text="add"
+    android:layout_marginRight="17dp"/>
 
 
 
@@ -53,8 +56,10 @@ tools:context="com.sopan.food.recipe.SearchFragment">
         android:layout_below="@+id/typeIngredient"
         android:background="@drawable/border"
         android:numColumns="auto_fit"
-        android:padding="2dp"
+        android:padding="3dp"
         android:columnWidth="100dp"
+        android:layout_margin="5dp"
+
         />
 
 

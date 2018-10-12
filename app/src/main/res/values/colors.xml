@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#095358</color>
-    <color name="colorPrimaryDark">#197e84</color>
-    <color name="colorAccent">#2ba8af</color>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#03A9F4</color>
     <color name="colorAccent_rose">#4acbd2</color>
-    <color name="colorAccent_deepBlue">#414f63</color>
+    <color name="colorAccent_deepBlue">#03A9F4</color>
     <color name="colorFont1">#565455</color>
     <color name="colorFont2">#a7a6ab</color>
     <color name="colorFont3">#a2a8b4</color>
-    <color name="colorBG">#f9f9f9</color>
+    <color name="colorBG">#ffffff</color>
     <color name="colorBorder">#eaeaea</color>
     <color name="colorFragmentBG">#454546</color>
     <color name="grey">#d2cece</color>

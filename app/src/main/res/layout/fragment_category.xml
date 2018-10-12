@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.sopan.food.recipe.CategoryFragment">
+    tools:context="com.foodapp.food.recipe.CategoryFragment">
 
     <ListView
         android:id="@+id/listVeiw_category"

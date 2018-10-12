@@ -11,7 +11,7 @@
         android:layout_marginRight="24dp"
         android:layout_marginTop="24dp"
         android:minHeight="20dp"
-        android:text="TextView"
+        android:text="Country"
         android:textSize="30dp"
         android:textStyle="bold"
         android:fontFamily="@string/title_activity_recipy"/>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.sopan.food.recipe.activity.RecipeActivity">
+    tools:context="com.foodapp.food.recipe.activity.RecipeActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -22,19 +22,6 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/txt_recipeUploaddate"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
-            android:layout_marginLeft="24dp"
-            android:layout_marginRight="24dp"
-            android:layout_marginTop="-15dp"
-            android:gravity="right"
-            android:textColor="@android:color/white"
-            android:textSize="10sp"
-            app:layout_constraintRight_toLeftOf="@+id/txt_recipeAuthor"
-            tools:layout_editor_absoluteY="337dp" />
 
         <TextView
             android:id="@+id/txt_recipeName"
@@ -51,26 +38,13 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/img_recipeMainImg" />
 
-        <TextView
-            android:id="@+id/txt_recipeAuthor"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="24dp"
-            android:layout_marginRight="24dp"
-            android:layout_marginTop="8dp"
-            android:gravity="right"
-            android:text="Author"
-            android:textColor="@color/colorFont3"
-            android:textSize="10sp"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txt_recipeName" />
 
         <TextView
             android:id="@+id/textView11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="24dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="15dp"
             android:text="Country"
             android:textColor="@color/colorFont1"
             android:textSize="14sp"
@@ -96,7 +70,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="13dp"
             android:text="Ingredients"
             android:textColor="@color/colorFont1"
             app:layout_constraintHorizontal_bias="0.0"
@@ -123,7 +97,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="13sp"
             android:text="Description"
             android:textColor="@color/colorFont1"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -135,10 +109,12 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="2dp"
             android:lineSpacingMultiplier="1.3"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+            app:layout_constraintTop_toBottomOf="@+id/textView14"
+            android:textColor="@color/colorFont1"
+            android:textStyle="bold"/>
 
         <TextView
             android:id="@+id/textView17"
@@ -146,8 +122,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
-            android:layout_marginTop="24dp"
-            android:text="How to"
+            android:layout_marginTop="11dp"
+            android:text="Recipe"
             android:textColor="@color/colorFont1"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/txt_recipeDescription" />
@@ -162,22 +138,10 @@
             android:lineSpacingMultiplier="1.3"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView17" />
+            app:layout_constraintTop_toBottomOf="@+id/textView17"
+            android:textStyle="bold"
+            android:textColor= "@color/colorFont1"/>
 
-        <CheckBox
-            android:id="@+id/chk_recipeLike"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="50dp"
-            android:layout_marginTop="32dp"
-            android:background="@android:color/transparent"
-            android:button="@null"
-            android:drawableLeft="@drawable/checkbox"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txt_recipeHowto" />
     </LinearLayout>
 
 </ScrollView>
