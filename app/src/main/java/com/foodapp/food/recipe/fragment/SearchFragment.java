@@ -77,7 +77,6 @@ public class SearchFragment extends Fragment implements View.OnClickListener
             }
         });
 
-
         addButton.setOnClickListener(this);
         buttonSearch.setOnClickListener(this);
         return view;

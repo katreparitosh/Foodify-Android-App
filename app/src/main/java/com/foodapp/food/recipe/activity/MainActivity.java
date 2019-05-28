@@ -19,7 +19,7 @@ import com.foodapp.food.recipe.fragment.InformationFragment;
 import com.foodapp.food.recipe.fragment.SearchFragment;
 
 public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+        implements NavigationView.OnNavigationItemSelectedListener  {
 
     DrawerLayout drawer;
     ActionBarDrawerToggle toggle;
